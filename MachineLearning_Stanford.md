@@ -58,3 +58,45 @@ everytime helicopter crashes, we say bad helicopter. othertime, good helicopter.
 
 
 
+
+### Lecture 2:
+
+
+Given a dataset for Housing price vs house size (training set).
+Using this , we need to devise a algorithm to predict housing price for test dataset.
+m = #training examples
+x = "input" variables / features
+y = "output" variable/ "target" variable
+(x,y) is one training example (1 row in our data set)
+
+Training set --> Learning algorithm --> hypothesis "h" 
+Using "h", we can do this.
+ New living area (x) ---> h ---> estimated price (y)
+ 
+ Now a lil Math which is explained here.
+ http://cs229.stanford.edu/notes/cs229-notes1.pdf
+
+Learning algorithm computes "Theta's" with which we can compute h(x).
+Choose theta's such that the cost funtion is minimized. where cost function is sum of square error.
+
+Now, Use Gradient descent algorithm, which starts with some initial θ, and repeatedly performs the update to minimize the cost function.
+With different initial guess of theta we can get a different local minima. [issue].
+alpha[learning rate] in the equation is the size of the step you take to compute the next value. So it shouldn't be huge or very small. 
+
+In Batch gradient descent, summation can be computationally expensive when m is in order of millions.
+therfore we have, Stochastic Gradient Descent which might not converge to a global minima but to which it converges is a good approximation of a minimum and also this is relatively faster with huge datasets.
+
+
+Matrix derivatives:
+
+
+
+
+**To be continued.....**
+
+
+
+
+
+
+

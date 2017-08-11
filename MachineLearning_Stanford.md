@@ -86,14 +86,43 @@ alpha[learning rate] in the equation is the size of the step you take to compute
 In Batch gradient descent, summation can be computationally expensive when m is in order of millions.
 therfore we have, Stochastic Gradient Descent which might not converge to a global minima but to which it converges is a good approximation of a minimum and also this is relatively faster with huge datasets.
 
-
 Matrix derivatives:
-
-
-
+matrix derivative, J(theta). 
+Some facts about trace.
+Proof of the value of theta which minimizes the valus of J(theta).
 
 **To be continued.....**
 
+### Lecture 3:
+TODO:
+>Linear regression --> Locally weighted regression
+Probabilistic interpretation of LR
+Then our first classification algorithm --- Logistic regression
+Newton's Method.
+
+Selecting number of features and good features. [features selection algorithms exist]
+Problem of underfitting, overfitting and best fit. 
+
+"Parametrix" learning algorithm:  Algorithm which have fixed number of parameters which fits the data. Ex: Linear regression.
+
+"Non Parametrix" learning algorithm: Algorithm where number of parameters grows with the size of the training set.
+Ex: Locally weighted regression (Loess / lowess)
+
+To evaluate h at a certain X
+LR: We fit theta to minimize J(theta) and return theta_transpose*X
+LWR: look at the vicinity of X, then take these points and try to fit a straight line in this subset of data, then predict the value of X
+
+
+Page 14,15: Math explained.
+
+Will give weights --> 0 to points far away from X and weights --> 1 to points in the vicinity of X.
+Another parameter (Tau) is the bandwidth parameter and controls how fast the weights fall with distance.
+If Tau small then we end up choosing a weighting function with very narrow vicinity.
+If Tau large then we end up choosing a weighting function which falls off relatively slowly.
+
+LWR is expensive since everytime we want to predict then we need to compute theta. 
+
+Probabilistic interpretation of Linear regression:
 
 
 

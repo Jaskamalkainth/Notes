@@ -1,4 +1,4 @@
-#### Introduction - Option Prices
+### Introduction - Option Prices
 Options in layman terms is a contract that gives the right but not an obligation to either buy or sell an assest( stocks/shares of a company/ foreign currencies/ commodities) on or before a certain date.
 
 There are two types of options, **Call** and **Put**. When we buy a call option we wish that the option price goes up and when we buy a put option we wish that the option price goes down.

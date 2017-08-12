@@ -18,3 +18,26 @@ Option prices are based on 3 elements:
 
 
 The combination of these three factors determines the option prices.
+
+
+
+
+##### Basic shorting:
+Borrow the stock from someone and sell it, then hope that its price falls you buy it again and give it back.
+##### American Put Options:
+It gives us the right to exercise our option even before the expiration date.
+##### Call option as leverage:
+Call option gives us financial leverage as Percent gain with call option is more than normal stock price. So with call option we multiply our potential gains/losses.
+
+##### Payoff Diagrams:
+
+Value - Underlying stock price.
+1. Call payoff Diagram.
+Stock price < Strike , then price then no need to exercise it, during this time we have negative profit [our premium]
+else value = stockprice - strikeprice [ linear line ] , here profit is postive after stockprice+premium.
+2. Put payoff Diagram. [similar to call with minor changes].
+if underlying stock price is 0 then we will definitely exercise our put option and make profit of our strike price [y-intercept is strike price].Now above strike price we have right to not exercise our option therefore value is 0 and profit is negative premium.
+
+
+
+
